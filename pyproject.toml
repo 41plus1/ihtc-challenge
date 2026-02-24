@@ -8,5 +8,6 @@ dependencies = [
     "dataclasses>=0.8",
     "pandas>=3.0.1",
     "pathlib>=1.0.1",
+    "pulp>=3.3.0",
     "typing>=3.10.0.0",
 ]
