@@ -3,7 +3,7 @@
 Repositório oficial do Projeto Final da disciplina de Matemática Computacional. 
 O objetivo deste projeto é otimizar a alocação de enfermeiros a quartos de hospital por turno, minimizando o défice de competências (*skill deficit*) e o excesso de carga de trabalho (*excessive workload*), com base no subproblema NRA da competição *Integrated Healthcare Timetabling Competition 2024* (IHTC-2024).
 
-## 🚀 Abordagens Implementadas
+## Abordagens Implementadas
 
 Para resolver este problema de otimização combinatória (NP-Difícil) e lidar com as rigorosas restrições de cobertura e disponibilidade, implementamos três abordagens:
 
