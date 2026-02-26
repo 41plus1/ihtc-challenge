@@ -5,7 +5,7 @@ O objetivo deste projeto é otimizar a alocação de enfermeiros a quartos de ho
 
 ## Abordagens Implementadas
 
-Para resolver este problema de otimização combinatória (NP-Difícil) e lidar com as rigorosas restrições de cobertura e disponibilidade, implementámos três abordagens:
+Para resolver este problema de otimização combinatória (NP-Difícil) e lidar com as rigorosas restrições de cobertura e disponibilidade, implementamos três abordagens:
 
 1. **Heurística Gulosa (Greedy Baseline):** Atua como ponto de referência, alocando os quartos ao enfermeiro com maior nível de competência disponível no turno. Ignora o planeamento a longo prazo, servindo para demonstrar o impacto negativo da sobrecarga de trabalho.
 2. **Algoritmo Genético (PyGAD):** Uma meta-heurística parametrizada (POO) focada na exploração global do espaço de busca. Utiliza a funcionalidade de `gene_space` para garantir a geração de cromossomas 100% factíveis, eliminando a necessidade de funções pesadas de reparação.
