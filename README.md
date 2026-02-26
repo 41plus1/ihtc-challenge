@@ -13,8 +13,6 @@ Para resolver este problema de otimização combinatória (NP-Difícil) e lidar 
 
 ## Estrutura do Projeto
 
-O código foi desenhado seguindo princípios de modularidade e *Clean Code*.
-
 ```text
 ihtc-challenge/
 ├── data/                   # Instâncias do IHTC-2024 (ex: i04, i06)
