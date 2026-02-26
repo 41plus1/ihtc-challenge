@@ -3,7 +3,7 @@
 Repositório oficial do Projeto Final da disciplina de Matemática Computacional. 
 O objetivo deste projeto é otimizar a alocação de enfermeiros a quartos de hospital por turno, minimizando o défice de competências (*skill deficit*) e o excesso de carga de trabalho (*excessive workload*), com base no subproblema NRA da competição *Integrated Healthcare Timetabling Competition 2024* (IHTC-2024).
 
-## 🚀 Abordagens Implementadas
+## Abordagens Implementadas
 
 Para resolver este problema de otimização combinatória (NP-Difícil) e lidar com as rigorosas restrições de cobertura e disponibilidade, implementámos três abordagens:
 
@@ -11,7 +11,7 @@ Para resolver este problema de otimização combinatória (NP-Difícil) e lidar 
 2. **Algoritmo Genético (PyGAD):** Uma meta-heurística parametrizada (POO) focada na exploração global do espaço de busca. Utiliza a funcionalidade de `gene_space` para garantir a geração de cromossomas 100% factíveis, eliminando a necessidade de funções pesadas de reparação.
 3. **Matheurística - Fix & Optimize (Solver PLI):** Utiliza o Algoritmo Genético para obter uma solução global viável inicial e aplica Programação Linear Inteira (PLI) via `PuLP/CBC` para otimizar exata e iterativamente pequenos blocos (vizinhanças) de 5 enfermeiros. O modelo matemático utiliza estritamente variáveis binárias e inteiras.
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 
 O código foi desenhado seguindo princípios de modularidade e *Clean Code*.
 
