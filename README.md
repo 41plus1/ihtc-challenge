@@ -20,6 +20,33 @@ O projeto foi desenvolvido em Python e apoia-se num conjunto robusto de bibliote
 * **`pulp`**: Interface de modelagem para Programação Linear Inteira (PLI). Utiliza o solver *CBC* (integrado) para encontrar soluções exatas para os subproblemas matemáticos da matheurística.
 * **`matplotlib`** e **`seaborn`**: Utilizados em conjunto para a renderização de gráficos, essenciais para a análise estatística (boxplots, curvas de convergência e tempos de execução).
 
+## Execução do Projeto
+
+Este projeto utiliza o [uv](https://docs.astral.sh/uv/) como gerenciador de pacotes e ambientes Python.
+
+1. **Crie o ambiente e instale as dependências**
+
+O uv gerencia o ambiente virtual automaticamente com base nos arquivos pyproject.toml. Basta executar os comandos abaixo no terminal:
+
+```text
+uv venv
+source .venv/bin/activate  # No Windows: .venv\Scripts\activate
+uv sync
+```
+
+2. **Adicionar o ambiente como Kernel no Jupyter**
+
+Para que o arquivo ```main.ipynb``` reconheça o ambiente do projeto, você precisa instalar o ```ipykernel``` dentro do ambiente virtual e registrar o kernel:
+
+```text
+uv pip install ipykernel
+uv run python -m ipykernel install --user --name ihtc-challenge --display-name "Python (IHTC-2024)"
+```
+
+3. **Executar o Notebook**
+
+Abra o VS Code ou Jupyter Lab. Abra o arquivo main.ipynb. No seletor de Kernel (canto superior direito), escolha a opção "Python (IHTC-2024)". Execute as células normalmente.
+
 ## Estrutura do Projeto
 
 ```text
